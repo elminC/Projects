@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane id="pane" fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="709.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ListView id="listView" fx:id="listaitema_listview" layoutX="488.0" layoutY="247.0" opacity="0.51" prefHeight="200.0" prefWidth="200.0" />
+      <ImageView id="iamgeview1" fx:id="prviitem_picbox" fitHeight="100.0" fitWidth="100.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#pick_clicked" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="drugiitem_picbox" fitHeight="100.0" fitWidth="100.0" layoutX="197.0" layoutY="15.0" onMouseClicked="#drugiitem_click" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="138.0" layoutY="28.0" text="+">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="337.0" layoutY="28.0" text="=">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="rezultat_picbox" fitHeight="100.0" fitWidth="100.0" layoutX="395.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="14.0" layoutY="433.0" prefHeight="31.0" prefWidth="154.0" textFill="RED">
+         <font>
+            <Font name="Arial Narrow Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="text_field" layoutX="28.0" layoutY="298.0" opacity="0.54" prefHeight="137.0" prefWidth="428.0" promptText="Description!">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </TextArea>
+   </children>
+</Pane>
